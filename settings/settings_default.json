@@ -1,0 +1,12 @@
+{
+    "prefix": "ChatGPT",
+    "api-key":"",
+    "engine": "text-davinci-003",
+    "max_tokens": "1024",
+    "temperature": "0.5",
+    "language": "en-US",
+    "voice selected": "0",
+    "voices": {},
+    "device selected": "0",
+    "audio devices": {}
+}
