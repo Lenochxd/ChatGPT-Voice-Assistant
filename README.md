@@ -4,11 +4,12 @@ Not really a voice assistant, but rather ChatGPT without a keyboard.
 
 
 ## Usage
-1.  `pip install -r requirements.txt`
-2.  `python main.py`
-3. You can now open and edit `settings/settings.json`
+1. Make sure to have [python](https://www.python.org/downloads/ "install python here") installed
+2. `pip install -r requirements.txt`
+3. `python main.py`
+4. You can now open and edit `settings/settings.json`
 - **prefix:** is used to know where is the beginning of a sentence, it's like "Alexa" or "Ok google".
-- **api-key:** The OpenAI API uses API keys for authentication. Visit your [API Keys](https://beta.openai.com/account/api-keys "here") page to retrieve the API key you'll use in your requests, 18$ of credits are free.
+- **api-key:** The OpenAI API uses API keys for authentication. Visit your [API Keys](https://beta.openai.com/account/api-keys) page to retrieve the API key you'll use in your requests, 18$ of credits are free.
 - **engine:** OpenIA API setting, the default one (`text-davinci-003`) is the best for ChatGPT-3, you can find the others engines [here](https://beta.openai.com/docs/models/gpt-3 "here").
 - **max_tokens** OpenIA API setting which is used to put a limit on your request so as not to use too many tokens.
 - **temperature:** Higher values means the model will take more risks. Try 0.9 for more creative applications, and 0 (argmax sampling) for ones with a well-defined answer.
