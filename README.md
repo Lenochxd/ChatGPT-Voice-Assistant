@@ -16,3 +16,4 @@ Not really a voice assistant, but rather ChatGPT without a keyboard.
 - **language:** .
 - **voice selected  &  voices:** Change voice, documentation [here](https://support.microsoft.com/en-gb/topic/download-languages-and-voices-for-immersive-reader-read-mode-and-read-aloud-4c83a8d8-7486-42f7-8e46-2b0fdf753130: "here")
 - **device selected  &  audio devices:** Select your microphone, make sure to select the first one with the name of your microphone, if the microphone does not work, try another one.
+5. `python main.py`
